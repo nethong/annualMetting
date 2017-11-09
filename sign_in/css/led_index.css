@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+.photo_wall{
+    position: absolute;
+    top:30px;
+    left:330px;
+    z-index: 999;
+}
+.wall_item{
+    float:left;
+    font-size: 0;
+}
+.wall_item>img{
+    width:100%;
+    height:100%;
+    display: none;
+}
+.clear:after{
+    content:"";
+    clear:both;
+}
+.c1{
+    background-color: rgba(0,0,0,.3);
+}
+.c2{
+    background-color: rgba(255,255,255,.3);
+}
+
+body,html{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.all{
+    width:1024px;
+    height:738px;
+    background: url("../images/led_bg.jpg") no-repeat;
+    -webkit-background-size:1024px 738px;
+    background-size:1024px 738px;
+}
+
+
+.pop{
+    width:300px;
+    height:80px;
+    position: absolute;
+    top:800px;
+    /*background-color: #fc5b32;*/
+}
+.pop>img{
+    width:100px;
+    height:200px;
+}
+
+.logo{
+    width:106px;
+    height:89px;
+    background: url("../images/logo.png") no-repeat center;
+    -webkit-background-size:106px 89px;
+    background-size:106px 89px;
+    position: absolute;
+    top:20px;
+    left:30px;
+}
+.logo1{
+    width:220px;
+    height:192px;
+    background: url("../images/logo1.png") no-repeat center;
+    -webkit-background-size:220px 192px;
+    background-size:220px 192px;
+    position: absolute;
+    top:35%;
+    left:20px;
+}
+.logo2{
+    width:220px;
+    height:192px;
+    background: url("../images/logo2.png") no-repeat center;
+    -webkit-background-size:220px 192px;
+    background-size:220px 192px;
+    position: absolute;
+    top:62%;
+    right:40px;
+}
+.ewm{
+    width: 115px;
+    height: 230px;
+    position: absolute;
+    right: 93px;
+    top: 27%;
+    background: url(../images/ewm.jpg) no-repeat center;
+    -webkit-background-size:115px 230px;
+    background-size:115px 230px;
+}
